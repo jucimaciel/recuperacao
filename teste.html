@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    
+    <title> Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Adicione os seus dados</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome</label><br>
+          <input
+            type="text"
+            id="username"
+          />
+        </div>
+
+        <div>
+          <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+            </div>
+            <div class="form-control">
+                <label for="idade">Idade</label><br>
+                <input type="text" id="idade" />
+              </div>
+              <form id="form" class="form">
+                <div class="form-control">
+                  <label for="username">Cidade</label><br>
+                  <input
+                    type="text"
+                    id="username"
+                  />
+                </div>
+                <div>
+                    <p>Linguagem de programação favorita:</p>
+                          <input type="radio" id="java" name="linguagem" value="Java" required>
+                          <label for="Java">Java</label>
+                          <br>
+                          <input type="radio" id="PHP" name="linguagem" value="PHP" required>
+                          <label for="PHP">PHP</label>
+                          <br>
+                          <input type="radio" id="python" name="linguagem" value="python" required>
+                          <label for="python">Python</label>
+                          <br>
+                      </div>
+                      <div class="form-control">
+                        <label for="consideracoes">Considerações</label><br>
+                        <input type="text" id="consideracoes" />
+                      </div>
+          <div>
+        <button type="submeter">submeter</button>
+      </form>
+    </div>
+
+    
+</body>
+</html>

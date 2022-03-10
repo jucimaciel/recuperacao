@@ -1,0 +1,14 @@
+body{
+background: linear-gradient(rgb(106, 106, 161),rgb(202, 179, 183));
+margin: 10px;
+
+}
+.container{
+    display: block;
+}
+.header{
+text-align: center;
+}
+.form{
+    margin: 20px;
+font-size: 16px;}
